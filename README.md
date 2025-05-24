@@ -31,31 +31,31 @@ Copy
 Edit
 DROP TABLE IF EXISTS spotify;
 ```
-CREATE TABLE spotify (
-    Artist           VARCHAR(265),
-    Track            VARCHAR(255),
-    Album            VARCHAR(255),
-    Album_type       VARCHAR(255),
-    Danceability     FLOAT,
-    Energy           FLOAT,   
-    Loudness         FLOAT,
-    Speechiness      FLOAT,
-    Acousticness     FLOAT,
-    Instrumentalness FLOAT,
-    Liveness         FLOAT,
-    Valence          FLOAT,
-    Tempo            FLOAT,
-    Duration_min     FLOAT,
-    Title            VARCHAR(255), 
-    Channel          VARCHAR(255),
-    Views            FLOAT,
-    Likes            BIGINT,
-    Comments         BIGINT,
-    Licensed         BOOLEAN,
-    official_video   BOOLEAN,
-    Stream           BIGINT,
-    EnergyLiveness   FLOAT,
-    most_playedon    VARCHAR(50)
+create table spotify(
+artist           varchar(265),
+track            varchar(255),
+album            varchar(255),
+album_type       varchar(255),
+danceability     float,
+energy           float,   
+loudness         float,
+speechiness      float,
+acousticness     float,
+instrumentalness float,
+liveness         float,
+valence          float,
+tempo            float,
+duration_min     float,
+title            varchar(255), 
+channel          varchar(255),
+views            float,
+likes            bigint,
+comments         bigint,
+licensed         boolean,
+official_video   boolean,
+stream           bigint,
+energyliveness   float,
+most_playedon    varchar(50)
 );
 ```
 🧹 Data Cleaning Queries
