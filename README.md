@@ -240,7 +240,8 @@ select * from (
 where 
     streamed_on_spotify > streamed_on_youtube
     and streamed_on_youtube <> 0;
-
+```
+```
 --advance problems
 
 --q1. find top 3 most-viewed tracks for each artist using window functions
