@@ -176,7 +176,8 @@ most_playedon    is null;
 
 --view all data
 select * from spotify;
-
+```
+```
 --q1. retrieve names of tracks with more than 1 billion streams
 select * from spotify 
 where stream > 1000000000;
@@ -198,7 +199,8 @@ where album_type = 'single';
 select count(track) as total_track, artist from spotify
 group by artist
 order by 1 desc;
-
+```
+```
 --medium level analysis
 
 --1. calculate average danceability per album
